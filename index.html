@@ -1,0 +1,43 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+
+    <!-- Bootstrap -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <style type="text/css">
+      /* centered columns styles */
+      .row-centered {
+        text-align:center;
+      }
+      .col-centered {
+        display:inline-block;
+        float:none;
+        /* reset the text-align */
+        text-align:left;
+        /* inline-block space fix */
+        margin-right:-4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <div class="row row-centered">
+        <div class="col-lg-1 col-centered">
+          <a href="/feed.xml"><i class="fa fa-3x fa-rss-square"></i></a>
+          <a href="https://twitter.com/spilledpopcorn"><i class="fa fa-3x fa-twitter-square"></i></a>
+          <a href="mailto:feedback@spilledpopcorn.com"><i class="fa fa-3x fa-envelope-square"></i></a>
+        </div>
+    </div>
+    </div>
+
+  </body>
+</html>
